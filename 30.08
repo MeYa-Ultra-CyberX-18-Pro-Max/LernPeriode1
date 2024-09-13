@@ -1,3 +1,39 @@
 In den ersten 2 Lektionen c# habe ich bereits ein Auto-Spiel mit c# programmiert, welches ich schon lange vorher programmiert habe. 
 
 In der restlichen Zeit habe ich eine Software erstellt, die 4-stellige Passwörter wieder mit c# öffnet. 
+
+
+using System;
+
+class Programm
+{
+    static void Main()
+    {
+        // Das richtige Passwort festlegen
+        string richtigesPasswort = "5555"; // Beispiel für das richtige Passwort
+        
+        // Teste alle Kombinationen von 0000 bis 9999
+        for (int i = 0; i <= 9999; i++)
+        {
+            // Das Passwort im 4-stelligen Format ausgeben (z.B. 0001, 0234)
+            string passwortVersuch = i.ToString("D4");
+            Console.WriteLine("Versuch: " + passwortVersuch);
+
+            // Überprüfen, ob das Passwort korrekt ist
+            if (ÜberprüfePasswort(passwortVersuch, richtigesPasswort))
+            {
+                Console.WriteLine("Korrektes Passwort gefunden: " + passwortVersuch);
+                break; // Das richtige Passwort gefunden, Schleife beenden
+            }
+        }
+
+        Console.WriteLine("Alle Passwörter wurden getestet.");
+    }
+
+    // Methode zur Passwortüberprüfung
+    static bool ÜberprüfePasswort(string passwortVersuch, string richtigesPasswort)
+    {
+        // Vergleicht das aktuelle Passwort mit dem richtigen Passwort
+        return passwortVersuch == richtigesPasswort;
+    }
+}
