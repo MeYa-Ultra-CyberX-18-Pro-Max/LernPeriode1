@@ -1,0 +1,13 @@
+# Lern-Periode
+
+## 20.9
+
+- [ ] Mein Charakter kann springen
+- [ ] ...
+- [ ] ...
+- [ ] ...
+
+Heute habe ich blablabla...
+
+## Reflexion
+
