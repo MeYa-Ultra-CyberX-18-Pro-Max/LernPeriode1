@@ -1,15 +1,19 @@
 # Lern-Periode
 
-## 20.9
+## 18.10
+
+
+1. Planung (Vergangene Lernperiode)
+Mein Plan für diese Lernperiode war es, ein Unity-Spiel zu entwickeln, das ähnliche Mechaniken wie Paper.io verwendet. Dabei sollte die Spielfigur eine Spur hinter sich herziehen, und wenn diese eine geschlossene Form bildet, sollte das eingeschlossene Gebiet automatisch gefüllt werden. Ich wollte auch sicherstellen, dass sich die Figur flüssig und intuitiv steuern lässt, um ein gutes Spielerlebnis zu gewährleisten. Außerdem wollte ich die visuelle Darstellung verbessern, um dem Spiel ein ansprechendes Aussehen zu verleihen.
+
+
+
 
 - [ ] Mein Charakter kann springen laufen rennen....
 - [ ] Meine Alters-App berechnet, wie viele Jahre Monate, Tage, Stunden, Minuten, Sekunden sind...
 - [ ] ...
 - [ ] ...
 
-Heute habe ich mein Spiel mit Unity Programiert.
-Das war einfach.
-Ich mache es seit 6-7 Jahren.
 
 
 
@@ -26,7 +30,10 @@ weil es kein Update für das System gibt)
 Das Spiel hatte einen Instagram-Account und Videos.
 https://www.instagram.com/fondue_gabel/
 
+
 # Reflexion
+
+Die Arbeit im Lernatelier war für mich teils herausfordernd, aber auch lehrreich. Besonders schwer fiel mir die Implementierung der Logik, die prüft, ob die Linie eine geschlossene Form bildet, und dann das Gebiet füllt. Ich musste viel recherchieren und ausprobieren, bis ich eine funktionierende Lösung gefunden habe. In Zukunft möchte ich mich in der Fehlerbehebung verbessern, indem ich schneller auf Probleme reagiere und effizientere Lösungen finde. Die Atmosphäre im Klassenzimmer finde ich insgesamt angenehm und produktiv. Ich versuche, durch meine ruhige und konzentrierte Arbeitsweise zur guten Stimmung beizutragen, und helfe gern meinen Mitschülern, wenn sie Fragen haben.
 
 <img width="820" alt="Screenshot 2024-09-20 at 11 15 14" src="https://github.com/user-attachments/assets/652840d6-5137-45ab-b320-b4cc25ea4e0c">
 <img width="1728" alt="Screenshot 2024-09-20 at 11 15 36" src="https://github.com/user-attachments/assets/303b7f9e-6008-4169-8e5b-7dcb57bcbabb">
