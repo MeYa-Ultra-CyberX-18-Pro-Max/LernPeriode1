@@ -35,6 +35,10 @@ https://www.instagram.com/fondue_gabel/
 
 Die Arbeit im Lernatelier war für mich teils herausfordernd, aber auch lehrreich. Besonders schwer fiel mir die Implementierung der Logik, die prüft, ob die Linie eine geschlossene Form bildet, und dann das Gebiet füllt. Ich musste viel recherchieren und ausprobieren, bis ich eine funktionierende Lösung gefunden habe. In Zukunft möchte ich mich in der Fehlerbehebung verbessern, indem ich schneller auf Probleme reagiere und effizientere Lösungen finde. Die Atmosphäre im Klassenzimmer finde ich insgesamt angenehm und produktiv. Ich versuche, durch meine ruhige und konzentrierte Arbeitsweise zur guten Stimmung beizutragen, und helfe gern meinen Mitschülern, wenn sie Fragen haben.
 
+
+
+https://github.com/user-attachments/assets/4703d2ae-9fe2-4fab-933c-28922a0b1d70
+
 <img width="820" alt="Screenshot 2024-09-20 at 11 15 14" src="https://github.com/user-attachments/assets/652840d6-5137-45ab-b320-b4cc25ea4e0c">
 <img width="1728" alt="Screenshot 2024-09-20 at 11 15 36" src="https://github.com/user-attachments/assets/303b7f9e-6008-4169-8e5b-7dcb57bcbabb">
 
