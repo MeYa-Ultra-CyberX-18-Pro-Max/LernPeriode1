@@ -1,5 +1,3 @@
-
-
 using System;
 using System.Threading;
 
@@ -7,41 +5,40 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Bitte ein Datum eingeben (TT/MM/JJJJ):");
-        DateTime eingegebenesDatum;
+        Console.WriteLine("Please enter a date (DD/MM/YYYY):");
+        DateTime enteredDate;
 
-        // Überprüfen, ob das eingegebene Datum im richtigen Format vorliegt
-        if (DateTime.TryParse(Console.ReadLine(), out eingegebenesDatum))
+        // Check if the entered date is in the correct format
+        if (DateTime.TryParse(Console.ReadLine(), out enteredDate))
         {
             while (true)
             {
-                DateTime aktuelleZeit = DateTime.Now;
+                DateTime currentTime = DateTime.Now;
 
-                // Berechnung der vergangenen Zeit
-                TimeSpan differenz = aktuelleZeit - eingegebenesDatum;
+                // Calculate the elapsed time
+                TimeSpan timeDifference = currentTime - enteredDate;
 
-                // Berechnung der Jahre, Monate und Tage
-                int jahre = (int)(differenz.Days / 365.25);
-                int monate = (int)((differenz.Days % 365.25) / 30);
-                int tage = (int)((differenz.Days % 365.25) % 30);
+                // Calculate the years, months, and days
+                int years = (int)(timeDifference.Days / 365.25);
+                int months = (int)((timeDifference.Days % 365.25) / 30);
+                int days = (int)((timeDifference.Days % 365.25) % 30);
 
-                // Berechnung der Stunden, Minuten und Sekunden
-                int stunden = differenz.Hours;
-                int minuten = differenz.Minutes;
-                int sekunden = differenz.Seconds;
+                // Calculate the hours, minutes, and seconds
+                int hours = timeDifference.Hours;
+                int minutes = timeDifference.Minutes;
+                int seconds = timeDifference.Seconds;
 
-                // Ausgabe der vergangenen Zeit
-                Console.Clear(); // Konsole löschen, um die Anzeige zu aktualisieren
-                Console.WriteLine($"Vergangene Zeit: {jahre} Jahre, {monate} Monate, {tage} Tage, {stunden} Stunden, {minuten} Minuten, {sekunden} Sekunden.");
+                // Display the elapsed time
+                Console.Clear(); // Clear console to update the display
+                Console.WriteLine($"Elapsed time: {years} years, {months} months, {days} days, {hours} hours, {minutes} minutes, {seconds} seconds.");
 
-                // Eine Sekunde warten, bevor die Anzeige aktualisiert wird
+                // Wait for one second before updating the display
                 Thread.Sleep(1000);
             }
         }
         else
         {
-            Console.WriteLine("Bitte ein gültiges Datum im Format TT/MM/JJJJ eingeben.");
+            Console.WriteLine("Please enter a valid date in the format DD/MM/YYYY.");
         }
     }
 }
-
