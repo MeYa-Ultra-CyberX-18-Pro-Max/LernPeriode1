@@ -5,35 +5,35 @@ In der restlichen Zeit habe ich eine Software erstellt, die 4-stellige Passwört
 
 using System;
 
-class Programm
+class Program
 {
     static void Main()
     {
-        // Das richtige Passwort festlegen
-        string richtigesPasswort = "5555"; // Beispiel für das richtige Passwort
+        // Set the correct password
+        string correctPassword = "5555"; // Example of the correct password
         
-        // Teste alle Kombinationen von 0000 bis 9999
+        // Test all combinations from 0000 to 9999
         for (int i = 0; i <= 9999; i++)
         {
-            // Das Passwort im 4-stelligen Format ausgeben (z.B. 0001, 0234)
-            string passwortVersuch = i.ToString("D4");
-            Console.WriteLine("Versuch: " + passwortVersuch);
+            // Format the password attempt as a 4-digit string (e.g., 0001, 0234)
+            string passwordAttempt = i.ToString("D4");
+            Console.WriteLine("Attempt: " + passwordAttempt);
 
-            // Überprüfen, ob das Passwort korrekt ist
-            if (ÜberprüfePasswort(passwortVersuch, richtigesPasswort))
+            // Check if the password is correct
+            if (CheckPassword(passwordAttempt, correctPassword))
             {
-                Console.WriteLine("Korrektes Passwort gefunden: " + passwortVersuch);
-                break; // Das richtige Passwort gefunden, Schleife beenden
+                Console.WriteLine("Correct password found: " + passwordAttempt);
+                break; // Correct password found, exit loop
             }
         }
 
-        Console.WriteLine("Alle Passwörter wurden getestet.");
+        Console.WriteLine("All passwords have been tested.");
     }
 
-    // Methode zur Passwortüberprüfung
-    static bool ÜberprüfePasswort(string passwortVersuch, string richtigesPasswort)
+    // Method for password verification
+    static bool CheckPassword(string passwordAttempt, string correctPassword)
     {
-        // Vergleicht das aktuelle Passwort mit dem richtigen Passwort
-        return passwortVersuch == richtigesPasswort;
+        // Compares the current password attempt with the correct password
+        return passwordAttempt == correctPassword;
     }
 }
